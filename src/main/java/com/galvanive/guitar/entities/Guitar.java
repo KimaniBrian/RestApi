@@ -14,14 +14,14 @@ public class Guitar {
      private String model;
      private int strings;
 
-    public Guitar(long guitarid, String brand, String model, int strings) {
+    public Guitar(String brand, String model, int strings) {
         this.guitarid = guitarid;
         this.brand = brand;
         this.model = model;
         this.strings = strings;
     }
 
-    public Guitar(String s, String s1, int i) {
+    public Guitar() {
     }
 
     public long getGuitarid() {
