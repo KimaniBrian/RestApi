@@ -31,7 +31,7 @@ public class GuitarService  {
         }
     }
     public Guitar updateGuitar (Guitar guitar){
-        //will fail if the guitar does not exist
+        //should fail if the guitar does not exist
         return guitarRepository.save(guitar);
     }
 }
